@@ -97,13 +97,6 @@ def task23(x, y):
         return 'Введённые данные неверного формата'
 
 
-def task24(x):
-    try:
-        ans = x - 10 * sin(x) + abs(x**4 - x**5)
-        return ans
-    except:
-        return 'Введённые данные неверного формата'
-
 
 def task25(x, y):
     try:
